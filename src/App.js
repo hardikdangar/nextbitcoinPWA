@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -15,16 +15,16 @@ class App extends Component {
           <header className="container">
             <nav className="navbar">
               <div className="navbar-brand">
-                <span className="navbar-item">PusherCoins</span>
+                <span className="navbar-item">SrtplCoins</span>
               </div>
               <div className="navbar-end">
                 <a
                   className="navbar-item"
-                  href="https://pusher.com"
+                  href="https://Srtpl.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Pusher.com
+                  Srtpl.com
                 </a>
               </div>
             </nav>
@@ -33,8 +33,8 @@ class App extends Component {
         <section className="results--section">
           <div className="container">
             <h1>
-              PusherCoins is a realtime price information about<br /> BTC, ETH
-              and LTC.
+              SrtplCoins is a realtime price information about
+              <br /> BTC, ETH and LTC.
             </h1>
           </div>
           <div className="results--section__inner">
